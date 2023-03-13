@@ -16,8 +16,9 @@ def preencher_tela_provisao_ferias(cod_empresa, competencia):
 
 
 def preencher_tela_provisao_13(cod_empresa, competencia):
-    time.sleep(2)
+    time.sleep(3)
     # pyautogui.hotkey('ctrl', 'a')
+    print(cod_empresa)
     pyautogui.write(cod_empresa)
     time.sleep(1)
     pyautogui.press('enter')
