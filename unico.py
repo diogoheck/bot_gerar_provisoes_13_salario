@@ -25,7 +25,7 @@ if __name__ == '__main__':
     competencia = calcular_competencia_geracao()
 
     pasta_provisoes = load_workbook(
-        'R:\\Compartilhado\\DP\\lista_provisoes\\plan_provisoes.xlsx')
+        'R:\\Compartilhado\\DP\\lista_provisoes\\plan_provisoes_13.xlsx')
     planilha = pasta_provisoes.active
     print(competencia)
     # logar_unico()
